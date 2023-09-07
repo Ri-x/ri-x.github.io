@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(20, 20,20);
+}
+
+img {
+    border-radius: 10%;
+    height: 500px;
+    border: 3px solid lightgray;
+    float: left;
+}
+
+h1 {
+    color: #c6c4c4;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 0%;
+    margin: 100px;
+    font-size: 35px;
+
+}
+
+p {
+    color: #c6c4c4;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-align: center;
+    margin: 0px 80px;
+
+}
+
