@@ -12,12 +12,11 @@ a{
 
 body {
     align-items: center;
-    background-color: rgba(7, 4, 4, 0.977);
+    background-color: rgba(0, 0, 0, 0.68);
     display: flex;
     justify-content: center;
     height: 100vh;
     margin: 0px;
-    overflow: hidden;
     padding: 0px;
 }
 
@@ -30,7 +29,7 @@ body {
 }
 
 .card {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(110, 110, 110, 0.755);
     border-radius: 10px;
     cursor: pointer;
     display: flex;
@@ -75,8 +74,8 @@ body {
 
 }
 
-.card>.card-content {
-    background-color: rbba(20, 20, 20);
+.card >.card-content {
+    background-color: rgb(30, 30, 30);
     border-radius: inherit;
     display: flex;
     flex-direction: column;
@@ -113,18 +112,37 @@ body {
 
 
 .card-title > h3 {
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(65, 65, 65, 0.927);
     font-size: 0.85em;
     margin-top: 8px;
 }
 
+.time {
+    align-items: center;
+    color: rgb(80, 80, 80);
+    border: 3px;
+    border-radius: 10%;
+    background-color: rgb(0, 0, 0);
+    bottom: 10px;
+    font-size: 6px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    left: 10px;
+    gap: 5px;
+    display: inline-flex;
+    position: fixed;
+    padding: 10px 20px;
+    margin-left: 45%;
+    
+}
+
 /* more stuff */
 
-h1, h2, h3, h4,span {
-    color: rgb(240, 240, 240);
+h1, h2, h3, h4, span {
+    color: rgba(255, 255, 255, 0.9);
     font-family: "Rubik", sans-serif;
     font-weight: 400;
     margin: 0px;
+    line-height: 1.5 ;
 }
 
 .card-image {
@@ -136,8 +154,8 @@ h1, h2, h3, h4,span {
 }
 
 i {
-    color: rgb(240, 240, 240);
-    border: 1px solid white;
+    color: rgb(30, 30, 30);
+    border: 1px solid rgb(30, 30, 30);
     border-radius: 10%;
 }
 
@@ -167,7 +185,7 @@ i {
 }
 
 .card-info-title > h3 {
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(129, 237, 201, 0.874);
     font-size: 0.85em;
     margin-top: 8px;
 }
