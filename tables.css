@@ -1,10 +1,10 @@
+
 body {
     background-color: rgb(20, 20,20);
 }
 
 img {
     border-radius: 10%;
-    height: 500px;
     border: 3px solid lightgray;
     float: left;
     margin: 10px 20px 10px;
@@ -43,6 +43,15 @@ p {
     margin: 0px 50px 20px;
     padding-left: 0em;
     padding-bottom: 1em;
+}
+
+.more {
+    transition: transform 0.5s ease;
+}
+
+.more:hover {
+    -webkit-transform: scale(2.0);
+    transform: scale(2.0);
 }
 
 .storage {
